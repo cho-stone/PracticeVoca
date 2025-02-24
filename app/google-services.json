@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "718794301928",
+    "firebase_url": "https://practicevoca-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "practicevoca",
+    "storage_bucket": "practicevoca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718794301928:android:e46a26f2c94a5ac690c45d",
+        "android_client_info": {
+          "package_name": "com.example.practicevoca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLKcKdBBF7g1BIZYRRuo46wC6FIjBLRVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

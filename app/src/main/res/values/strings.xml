@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VocaPractice</string>
+    <string name="main_topic_txt">단어장</string>
+    <string name="eng_invisible_txt">영어 가리기</string>
+    <string name="kor_invisible_txt">한글 가리기</string>
+    <string name="eng_visible_txt">영어 보이기</string>
+    <string name="kor_visible_txt">한글 보이기</string>
+    <string name="default_eng_txt">word</string>
+    <string name="default_kor_txt">단어</string>
+    <string name="addWord">단어 추가</string>
+    <string name="backupData">데이터 백업</string>
+    <string name="loadData">데이터 가져오기</string>
+    <string name="menu">메뉴</string>
+    <string name="inputEng">영어 입력</string>
+    <string name="inputKor">한글 입력</string>
+    <string name="backupKey">백업 키 입력</string>
+    <string name="close">닫기</string>
+    <string name="confirm">확인</string>
+    <string name="caution">주의</string>
+    <string name="deleteWord">해당 단어를 삭제합니까?</string>
+    <string name="waringData">* 기존에 있는 데이터는 삭제됩니다. *</string>
+
+    <string name="backupMessage">데이터를 서버에 백업합니다.</string>
+    <string name="backupMessage2">아래의 코드를 꼭 저장해주세요.</string>
+    <string name="loading">로딩중...</string>
+    <string name="touch">* 터치하세요! *</string>
+</resources>

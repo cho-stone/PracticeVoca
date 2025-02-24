@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_style"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/primary_height"
+            android:background="@drawable/dialog_title_style"
+            android:gravity="center"
+            android:text="@string/loadData"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_textSize"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/add_word_view_layout_padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/word_text_size"
+            android:text="@string/waringData"
+            android:gravity="center"
+            android:textColor="@color/c_red"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passKey_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/word_view_margin"
+            app:counterEnabled="true"
+            app:counterMaxLength="24"
+            style="@style/TextInputLayoutStyle"
+            android:theme="@style/TextInputLayoutStyle">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passKey_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/backupKey"
+                android:inputType="text"
+                android:maxLength="24"
+                android:textColor="@color/black"
+                tools:ignore="TouchTargetSizeCheck,VisualLintTextFieldSize" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#66bdbdbd" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_load_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/primary_height"
+            android:layout_weight="1"
+            android:background="@color/trans"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_textSize"
+            style="?android:attr/buttonBarButtonStyle"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn_load_close"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/primary_height"
+            android:layout_weight="1"
+            android:background="@color/trans"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textColor="@color/black"
+            android:textSize="@dimen/primary_textSize"
+            style="?android:attr/buttonBarButtonStyle"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</LinearLayout>

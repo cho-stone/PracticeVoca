@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/word_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/word_view_design"
+    android:orientation="horizontal"
+    android:layout_margin="@dimen/word_view_margin">
+
+    <TextView
+        android:id="@+id/tv_eng_word"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/default_eng_txt"
+        android:textSize="@dimen/word_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:breakStrategy="simple"
+        android:layout_margin="@dimen/word_text_view_margin"/>
+
+    <TextView
+        android:id="@+id/tv_kor_word"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/default_kor_txt"
+        android:textSize="@dimen/word_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:breakStrategy="simple"
+        android:layout_margin="@dimen/word_text_view_margin"/>
+</LinearLayout>
