@@ -10,7 +10,7 @@
 
     <dimen name="word_view_margin">10dp</dimen>
     <dimen name="word_text_view_margin">15dp</dimen>
-    <dimen name="word_text_size">17sp</dimen>
+    <dimen name="word_text_size">19sp</dimen>
     <dimen name="small_primary_textSize">10sp</dimen>
     <dimen name="copy_code_textSize">13sp</dimen>
 

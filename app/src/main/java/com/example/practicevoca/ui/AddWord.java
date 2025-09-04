@@ -23,8 +23,8 @@ public class AddWord extends Dialog {
 
     private TextInputEditText kor_input, eng_input;
     private TextInputLayout kor_input_layout, eng_input_layout;
-    private final String eng_validation = "^[a-zA-Z]+[a-zA-Z'~ ]*$";
-    private final String kor_validation = "^[가-힣~]+[가-힣~., ]*$";
+    private final String eng_validation = "^[\\p{IsHangul}\\p{IsHiragana}\\p{IsKatakana}\\p{IsHan}a-zA-Z0-9\\s',/]+$";
+    private final String kor_validation = "^[\\p{IsHangul}\\p{IsHiragana}\\p{IsKatakana}\\p{IsHan}a-zA-Z0-9\\s',/]+$";
     private boolean isEngValidate = false;
     private boolean isKorValidate = false;
     private final Context context;
